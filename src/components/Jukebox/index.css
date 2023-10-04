@@ -1,0 +1,77 @@
+.jukebox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #212121;
+    border-radius: 20px;
+
+}
+
+.header,
+.sub-header {
+    color: #b3b3b3
+}
+
+.song-container {
+    width: 550px;
+    background-color: #282828;
+    border-radius: 20px;
+    margin: 10px 10px;
+    padding: 5px 20px;
+
+}
+
+.song-container>button {
+    width: 100%;
+    border-radius: 20px;
+    font-size: large;
+    color: #26e76d;
+}
+
+/* .song-container>button:hover {
+    background-color: #1db954;
+} */
+
+.audio-disabled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d59d36;
+    color: whitesmoke;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+.disable-audio {
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #535353;
+    color: #b3b3b3;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f8f46;
+}
+
+
+p {
+    margin: 10px 0;
+}

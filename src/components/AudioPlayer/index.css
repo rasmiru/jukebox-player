@@ -1,0 +1,43 @@
+.audio-player-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px 0 0 0;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 4px;
+    text-align: center;
+    border-radius: 25% 10%;
+
+}
+
+.status,
+.current-time,
+.duration {
+    color: #b3b3b3;
+    font-size: large;
+}
+
+
+.audio-player-container>button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.audio-player-container>button:hover {
+    background-color: #1db954;
+}
+
+.play-pause-button {
+    font-size: 50px;
+}
+
+p {
+    margin: 10px 0;
+}
